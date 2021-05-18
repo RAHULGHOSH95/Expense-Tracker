@@ -1,0 +1,42 @@
+.EntryContainer {
+    border:  1px solid black;
+    margin: 10px 22px;
+    padding: 10px;
+    font-size: 150%;
+   font-weight: 800; 
+}
+
+.input {
+display:flex; 
+flex-wrap:wrap;
+justify-content: flex-start;
+padding:10px 0px;
+text-align: left;
+font-size: 80%;
+}
+
+.Label {
+    width: 120px;
+}
+
+button {
+    display: inline-block;
+    width: 50%;
+    height: 30px;
+    color: white;
+    font-weight: 800;
+    border: none;
+}
+button:hover{
+    box-shadow: 5px 5px 10px 5px #888888;;
+}
+button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.error {
+    float:left; 
+    width:100%;
+    color:red;
+}
